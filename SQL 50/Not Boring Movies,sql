@@ -1,0 +1,4 @@
+SELECT *
+FROM Cinema 
+WHERE id%2 <> 0 AND rating >= 8 AND description != 'boring' or description='good'
+ORDER BY rating DESC;
