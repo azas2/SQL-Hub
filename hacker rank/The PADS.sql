@@ -5,5 +5,3 @@ select concat('There are a total of ',count(occupation),' ',lower(occupation), '
 from OCCUPATIONS 
 GROUP BY occupation
 order by count(occupation)asc, lower(occupation)
-
-
